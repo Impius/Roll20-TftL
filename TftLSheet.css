@@ -22,69 +22,92 @@ h4.sheet-attr-head {
     background-color: black;
     color: white;
     text-align: left;
-    font-weight: normal;
-    font-style: normal;
     font-weight: bold;
+    font-style: normal;
 }
 
 div.sheet-attr {
+    border-collapse: collapse;
     border: 1px solid black;
     padding: 1%;
     margin: 0 0 1% 0;
 }
 
 table td.sheet-attr {
+    border-collapse: collapse;
+    border: 1px solid black;
     width: 13.33%;
     height: 58px;
 }
 
 table td.sheet-attr-label {
+    border-collapse: collapse;
+    border: 1px solid black;
     height: 58px;
     font-size: 120%; 
-    text-align: center;
+    text-align: left;
 }
 
 input[type="text"].sheet-attr-input {
+    border-collapse: collapse;
+    border: 1px solid black;
     width: 54px; 
     height: 58px; 
     font-size: 200%; 
-    text-align: center;
+    text-align: left;
 }
 
 table td.sheet-attr-roll {
+    border-collapse: collapse;
+    border: 1px solid black;
     height: 58px;
-    text-align: center;
+    text-align: left;
 }
 
 input.sheet-secondary-attr-input {
+    border-collapse: collapse;
+    border: 1px solid black;
     width: 100%;
-    text-align: center;
+    text-align: left;
 }
 
 input[type="number"].sheet-secondary-attr-input {
+    border-collapse: collapse;
+    border: 1px solid black;
     width: 100%;
-    text-align: center;
+    text-align: left;
 }
 
 table td.sheet-skill-label {
+    border-collapse: collapse;
+    border: 1px solid black;
     width: 100%;
+    text-align: left;
 }
 
 input[type="text"].sheet-skill-input {
+    border-collapse: collapse;
+    border: 1px solid black;
     width: 30px;
-    text-align: center;
+    text-align: left;
 }
 
 input[type="number"].sheet-skill-input {
+    border-collapse: collapse;
+    border: 1px solid black;
     width: 30px;
-    text-align: center;
+    text-align: left;
 }
 
 td.sheet-otherskill-reminder {
+    border-collapse: collapse;
+    border: 1px solid black;
     font-size: 85%;
 }
 
 texarea.sheet-backstory-box {
+    border-collapse: collapse;
+    border: 1px solid black;
     height: 75px;
 }
 
@@ -92,9 +115,8 @@ h4.sheet-condition-head {
     background-color: black;
     color: white;
     text-align: left;
-    font-weight: normal;
-    font-style: normal;
     font-weight: bold;
+    font-style: normal;
 }
 
 div.sheet-condition {
@@ -110,5 +132,34 @@ table td.sheet-condition {
 table td.sheet-condition-label {
     height: 58px;
     font-size: 120%; 
-    text-align: center;
+    text-align: left;
+}
+h4.sheet-skill-head{
+    background-color: black;
+    color: white;
+    text-align: Left;
+    font-weight: bold;
+    font-style: normal;
+    
+}
+table td.sheet-skill {
+    border-collapse: collapse;
+    border: 1px solid black;
+    width: 13.33%;
+    height: 58px;
+    text-justify: left;
+}
+table td.sheet-skill-label {
+    border: 1px solid black;
+    height: 58px;
+    font-size: 120%; 
+    text-align: left;
+}
+input[type="text"].sheet-skill-input {
+    border-collapse: collapse;
+    border: 1px solid black;
+    width: 54px; 
+    height: 58px; 
+    font-size: 200%; 
+    text-align: left;
 }
