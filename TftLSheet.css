@@ -18,15 +18,16 @@ div[class="repcontainer editmode"] ~ div[class^="repcontrol"] button[class="btn 
   visibility: hidden;
 }
 
-h4.sheet-section-head {
+h4.sheet-attr-head {
     background-color: black;
     color: white;
-    text-align: center;
+    text-align: left;
     font-weight: normal;
     font-style: normal;
+    font-weight: bold;
 }
 
-div.sheet-section {
+div.sheet-attr {
     border: 1px solid black;
     padding: 1%;
     margin: 0 0 1% 0;
@@ -87,94 +88,27 @@ texarea.sheet-backstory-box {
     height: 75px;
 }
 
-
-/* Roll Templates */
-.sheet-rolltemplate-coc table {
-    width: 100%;
-    border: 1px solid black;
-    color: black;
-    background: #FFFFFF;
-}
-.sheet-rolltemplate-coc caption {
-    text-align: center;
-    background: black;
+h4.sheet-condition-head {
+    background-color: black;
     color: white;
+    text-align: left;
+    font-weight: normal;
+    font-style: normal;
     font-weight: bold;
-    padding: 2px;
-  border: 1px solid black;
-  line-height: 1.6em;
-}
-.sheet-rolltemplate-coc td {
-  padding: 2px;
-  border-bottom: 1px solid black;
-}
-.sheet-rolltemplate-coc td.sheet-template_label {
-    font-weight: bold;
-}
-.sheet-rolltemplate-coc td.sheet-template_value {
-    text-align: center;
-}
-.sheet-rolltemplate-coc .inlinerollresult  {
-  display: inline-block;
-  min-width: 1.5em;
-  text-align: center;
-  border: 2px solid black;
-    background: #BEBEBE;
-}
-.sheet-rolltemplate-coc .inlinerollresult.fullcrit {
-  border: 2px solid black;
-    background: #BEBEBE;
-}
-.sheet-rolltemplate-coc .inlinerollresult.fullfail {
-  border: 2px solid black;
-    background: #BEBEBE;
-}
-.sheet-rolltemplate-coc .inlinerollresult.importantroll {
-  border: 2px solid black;
-    background: #BEBEBE;
 }
 
-.sheet-rolltemplate-coc-attack table {
-    width: 100%;
+div.sheet-condition {
     border: 1px solid black;
-    color: black;
-    background: #FFFFFF;
+    padding: 1%;
+    margin: 0 0 1% 0;
 }
-.sheet-rolltemplate-coc-attack caption {
+
+table td.sheet-condition {
+    width: 13.33%;
+    height: 58px;
+}
+table td.sheet-condition-label {
+    height: 58px;
+    font-size: 120%; 
     text-align: center;
-    background: black;
-    color: white;
-    font-weight: bold;
-    padding: 2px;
-  border: 1px solid black;
-  line-height: 1.6em;
-}
-.sheet-rolltemplate-coc-attack td {
-  padding: 2px;
-  border-bottom: 1px solid black;
-}
-.sheet-rolltemplate-coc-attack td.sheet-template_label {
-    font-weight: bold;
-}
-.sheet-rolltemplate-coc-attack td.sheet-template_value {
-    text-align: center;
-}
-.sheet-rolltemplate-coc-attack .inlinerollresult  {
-  display: inline-block;
-  min-width: 1.5em;
-  text-align: center;
-  border: 2px solid black;
-    background: #BEBEBE;
-}
-.sheet-rolltemplate-coc-attack .inlinerollresult.fullcrit {
-  border: 2px solid black;
-    background: #BEBEBE;
-}
-.sheet-rolltemplate-coc-attack .inlinerollresult.fullfail {
-  border: 2px solid black;
-    background: #BEBEBE;
-}
-.sheet-rolltemplate-coc-attack .inlinerollresult.importantroll {
-  border: 2px solid black;
-    background: #BEBEBE;
 }
