@@ -3,9 +3,9 @@
 </p>
 <div class='sheet-4colrow'>
     <div class='sheet-col'>
-        <h4 class="attr-head">ATTRIBUTES</h4>
+        <h4 class="attr-head">&nbsp;ATTRIBUTES</h4>
         <div class="attr">
-            <table style="width:33%">
+            <table style="width:300px">
                 <tr>
                     <td>Body </td>
                     <td colspan="3"><input type="text" name="attr_body" style="width:100%"></td>
@@ -22,42 +22,45 @@
                     <td>Mind </td>
                     <td colspan="3"><input type="text" name="attr_mind" style="width:100%"></td>
                 </tr>
-            </table>
         </div>
+            </table>
     </div>
-    <br>
-    <div class='sheet-colrow'>
-        <h4 class="condition-head">CONDITIONS</h4>
+    <br><br>
+    <div class='sheet-4colrow'>
+    <div class='sheet-col'>
+        <h4 class="condition-head">&nbsp;CONDITIONS</h4>
         <div class="condition">
-            <table style="width:33%">
-                <tr>
+            <table style="width:300px">
+                 <tr>
                     <td>Angry </td>
-                    <td colspan="3"><input type="text" name="attr_angry" style="width:100%"></td>
+                    <td colspan="3"><input type='checkbox' name='attr_isAngry' value='1' checked='true' /></td>
                 </tr>
                 <tr>
                     <td>Scared </td>
-                    <td colspan="3"><input type="text" name="attr_scared" style="width:100%"></td>
+                    <td colspan="3"><input type='checkbox' name='attr_isScared' value='1' checked='true' /></td>
                 </tr>
                 <tr>
                     <td>Exhausted </td>
-                    <td colspan="3"><input type="text" name="attr_exhausted" style="width:100%"></td>
+                    <td colspan="3"><input type='checkbox' name='attr_isExhausted' value='1' checked='true' /></td>
                 </tr>
                 <tr>
                     <td>Injured </td>
-                    <td colspan="3"><input type="text" name="attr_injured" style="width:100%"></td>
+                    <td colspan="3"><input type='checkbox' name='attr_isInjured' value='1' checked='true' /></td>
                 </tr>
 				<tr>
                     <td>Broken </td>
-                    <td colspan="3"><input type="text" name="attr_broken" style="width:100%"></td>
+                    <td colspan="3"><input type='checkbox' name='attr_isBroken' value='1' checked='true' /></td>
                 </tr>
             </table>
         </div>
-    </div>    
+    </div>
+    </div>
 <br>
+    <div class='sheet-col'>
 	<div class='sheet-col'>
-        <h4 class="section-head">SKILLS</h4>
-        <div class="section">
-            <table style="width:100%">
+        <h4 class="skill-head">&nbsp;SKILLS</h4>
+        <div class="skill">
+            <table style="width:310px">
             <tr>
                 <td class="attr-label" ><strong>Sneak (Body)</strong></td>
                 <td><input class="attr-input" type="text" name="attr_sneak"/></td>
@@ -133,5 +136,6 @@
             </table>
         </div>
     </div>
+</div>
 </div>
 </rolltemplate>
