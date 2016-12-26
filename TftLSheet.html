@@ -58,74 +58,74 @@
             <table style="width:100%">
             <tr>
                 <td class="attr-label" ><strong>Sneak (Body)</strong></td>
-                <td><input class="attr-input" type="text" name="attr_body"/></td>
-                <td class="attr-roll" ><button type='roll' value='&{template:coc} {{name=STR Roll}} {{success=[[@{str}]]}} {{hard=[[floor(@{str}/2)]]}} {{extreme=[[floor(@{str}/5)]]}} {{roll1=[[1d100]]}} {{roll2=[[1d100]]}} {{roll3=[[1d100]]}}' name='roll_str_check' /></td>
+                <td><input class="attr-input" type="text" name="attr_sneak"/></td>
+                <td class="attr-roll" ><button type='roll' value='&{template:default} {{name=Sneak}} {{sneak= [[@{body}d6 + @{sneak}d6]] }}' /></td>
                 <td> </td>
             </tr>
 			<tr>
                 <td class="attr-label" ><strong>Force (Body)</strong></td>
-                <td><input class="attr-input" type="text" name="attr_body"/></td>
-                <td class="attr-roll" ><button type='roll' value='&{template:coc} {{name=STR Roll}} {{success=[[@{str}]]}} {{hard=[[floor(@{str}/2)]]}} {{extreme=[[floor(@{str}/5)]]}} {{roll1=[[1d100]]}} {{roll2=[[1d100]]}} {{roll3=[[1d100]]}}' name='roll_str_check' /></td>
+                <td><input class="attr-input" type="text" name="attr_force"/></td>
+                <td class="attr-roll" ><button type='roll' value='&{template:default} {{name=force}} {{sneak= [[@{body}d6 + @{force}d6]] }}' /></td>
                 <td> </td>
             </tr>
 			<tr>
                 <td class="attr-label" ><strong>Move (Body)</strong></td>
-                <td><input class="attr-input" type="text" name="attr_body"/></td>
-                <td class="attr-roll" ><button type='roll' value='&{template:coc} {{name=STR Roll}} {{success=[[@{str}]]}} {{hard=[[floor(@{str}/2)]]}} {{extreme=[[floor(@{str}/5)]]}} {{roll1=[[1d100]]}} {{roll2=[[1d100]]}} {{roll3=[[1d100]]}}' name='roll_str_check' /></td>
+                <td><input class="attr-input" type="text" name="attr_move"/></td>
+                <td class="attr-roll" ><button type='roll' value='&{template:default} {{name=Sneak}} {{sneak= [[@{body}d6 + @{move}d6]] }}' /></td>
                 <td> </td>
             </tr>
 			<tr>
                 <td class="attr-label" ><strong>Build (Tech)</strong></td>
-                <td><input class="attr-input" type="text" name="attr_tech"/></td>
-                <td class="attr-roll" ><button type='roll' value='&{template:coc} {{name=STR Roll}} {{success=[[@{str}]]}} {{hard=[[floor(@{str}/2)]]}} {{extreme=[[floor(@{str}/5)]]}} {{roll1=[[1d100]]}} {{roll2=[[1d100]]}} {{roll3=[[1d100]]}}' name='roll_str_check' /></td>
+                <td><input class="attr-input" type="text" name="attr_build"/></td>
+                <td class="attr-roll" ><button type='roll' value='&{template:default} {{name=Sneak}} {{sneak= [[@{tech}d6 + @{build}d6]] }}' /></td>
                 <td> </td>
             </tr>
 			<tr>
                 <td class="attr-label" ><strong>Tinker (Tech)</strong></td>
-                <td><input class="attr-input" type="text" name="attr_tech"/></td>
-                <td class="attr-roll" ><button type='roll' value='&{template:coc} {{name=STR Roll}} {{success=[[@{str}]]}} {{hard=[[floor(@{str}/2)]]}} {{extreme=[[floor(@{str}/5)]]}} {{roll1=[[1d100]]}} {{roll2=[[1d100]]}} {{roll3=[[1d100]]}}' name='roll_str_check' /></td>
+                <td><input class="attr-input" type="text" name="attr_tinker"/></td>
+                <td class="attr-roll" ><button type='roll' value='&{template:default} {{name=Sneak}} {{sneak= [[@{tech}d6 + @{tinker}d6]] }}' /></td>
                 <td> </td>
             </tr>
 			<tr>
                 <td class="attr-label" ><strong>Calculate (Tech)</strong></td>
-                <td><input class="attr-input" type="text" name="attr_tech"/></td>
-                <td class="attr-roll" ><button type='roll' value='&{template:coc} {{name=STR Roll}} {{success=[[@{str}]]}} {{hard=[[floor(@{str}/2)]]}} {{extreme=[[floor(@{str}/5)]]}} {{roll1=[[1d100]]}} {{roll2=[[1d100]]}} {{roll3=[[1d100]]}}' name='roll_str_check' /></td>
+                <td><input class="attr-input" type="text" name="attr_calculate"/></td>
+                <td class="attr-roll" ><button type='roll' value='&{template:default} {{name=Sneak}} {{sneak= [[@{tech}d6 + @{calculate}d6]] }}' /></td>
                 <td> </td>
             </tr>
 			<tr>
                 <td class="attr-label" ><strong>Contact (Heart)</strong></td>
-                <td><input class="attr-input" type="text" name="attr_heart"/></td>
-                <td class="attr-roll" ><button type='roll' value='&{template:coc} {{name=STR Roll}} {{success=[[@{str}]]}} {{hard=[[floor(@{str}/2)]]}} {{extreme=[[floor(@{str}/5)]]}} {{roll1=[[1d100]]}} {{roll2=[[1d100]]}} {{roll3=[[1d100]]}}' name='roll_str_check' /></td>
+                <td><input class="attr-input" type="text" name="attr_contact"/></td>
+                <td class="attr-roll" ><button type='roll' value='&{template:default} {{name=Sneak}} {{sneak= [[@{heart}d6 + @{contact}d6]] }}' /></td>
                 <td> </td>
             </tr>
 			<tr>
                 <td class="attr-label" ><strong>Charm (Heart)</strong></td>
-                <td><input class="attr-input" type="text" name="attr_heart"/></td>
-                <td class="attr-roll" ><button type='roll' value='&{template:coc} {{name=STR Roll}} {{success=[[@{str}]]}} {{hard=[[floor(@{str}/2)]]}} {{extreme=[[floor(@{str}/5)]]}} {{roll1=[[1d100]]}} {{roll2=[[1d100]]}} {{roll3=[[1d100]]}}' name='roll_str_check' /></td>
+                <td><input class="attr-input" type="text" name="attr_charm"/></td>
+                <td class="attr-roll" ><button type='roll' value='&{template:default} {{name=Sneak}} {{sneak= [[@{heart}d6 + @{charm}d6]] }}' /></td>
                 <td> </td>
             </tr>
 			<tr>
                 <td class="attr-label" ><strong>Lead (Heart)</strong></td>
-                <td><input class="attr-input" type="text" name="attr_heart"/></td>
-                <td class="attr-roll" ><button type='roll' value='&{template:coc} {{name=STR Roll}} {{success=[[@{str}]]}} {{hard=[[floor(@{str}/2)]]}} {{extreme=[[floor(@{str}/5)]]}} {{roll1=[[1d100]]}} {{roll2=[[1d100]]}} {{roll3=[[1d100]]}}' name='roll_str_check' /></td>
+                <td><input class="attr-input" type="text" name="attr_lead"/></td>
+                <td class="attr-roll" ><button type='roll' value='&{template:default} {{name=Sneak}} {{sneak= [[@{heart}d6 + @{lead}d6]] }}' /></td>
                 <td> </td>
             </tr>
 			<tr>
                 <td class="attr-label" ><strong>Investigate (Mind)</strong></td>
-                <td><input class="attr-input" type="text" name="attr_mind"/></td>
-                <td class="attr-roll" ><button type='roll' value='&{template:coc} {{name=STR Roll}} {{success=[[@{str}]]}} {{hard=[[floor(@{str}/2)]]}} {{extreme=[[floor(@{str}/5)]]}} {{roll1=[[1d100]]}} {{roll2=[[1d100]]}} {{roll3=[[1d100]]}}' name='roll_str_check' /></td>
+                <td><input class="attr-input" type="text" name="attr_investigate"/></td>
+                <td class="attr-roll" ><button type='roll' value='&{template:default} {{name=Sneak}} {{sneak= [[@{mind}d6 + @{investigate}d6]] }}' /></td>
                 <td> </td>
             </tr>
 			<tr>
                 <td class="attr-label" ><strong>Comprehend (Mind)</strong></td>
-                <td><input class="attr-input" type="text" name="attr_mind"/></td>
-                <td class="attr-roll" ><button type='roll' value='&{template:coc} {{name=STR Roll}} {{success=[[@{str}]]}} {{hard=[[floor(@{str}/2)]]}} {{extreme=[[floor(@{str}/5)]]}} {{roll1=[[1d100]]}} {{roll2=[[1d100]]}} {{roll3=[[1d100]]}}' name='roll_str_check' /></td>
+                <td><input class="attr-input" type="text" name="attr_comprehend"/></td>
+                <td class="attr-roll" ><button type='roll' value='&{template:default} {{name=Sneak}} {{sneak= [[@{mind}d6 + @{comprehend}d6]] }}' /></td>
                 <td> </td>
             </tr>
 			<tr>
                 <td class="attr-label" ><strong>Empathize (Mind)</strong></td>
-                <td><input class="attr-input" type="text" name="attr_mind"/></td>
-                <td class="attr-roll" ><button type='roll' value='&{template:coc} {{name=STR Roll}} {{success=[[@{str}]]}} {{hard=[[floor(@{str}/2)]]}} {{extreme=[[floor(@{str}/5)]]}} {{roll1=[[1d100]]}} {{roll2=[[1d100]]}} {{roll3=[[1d100]]}}' name='roll_str_check' /></td>
+                <td><input class="attr-input" type="text" name="attr_empathize"/></td>
+                <td class="attr-roll" ><button type='roll' value='&{template:default} {{name=Sneak}} {{sneak= [[@{mind}d6 + @{empathize}d6]] }}' /></td>
                 <td> </td>
             </tr>
             </table>
