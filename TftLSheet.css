@@ -17,7 +17,7 @@ div[class="repcontainer editmode"] ~ div[class^="repcontrol"] button[class="btn 
   display: inline-block!important;
   visibility: hidden;
 }
-
+/* Attributes header formatting */
 h4.sheet-attr-head {
     background-color: black;
     color: white;
@@ -25,92 +25,22 @@ h4.sheet-attr-head {
     font-weight: bold;
     font-style: normal;
 }
-
+/* Attributes cell formatting */
 div.sheet-attr {
     border-collapse: collapse;
     border: 1px solid black;
     padding: 1%;
     margin: 0 0 1% 0;
 }
-
-table td.sheet-attr {
-    border-collapse: collapse;
-    border: 1px solid black;
-    width: 13.33%;
-    height: 58px;
-}
-
+/* Skill cell formatting */
 table td.sheet-attr-label {
     border-collapse: collapse;
     border: 1px solid black;
-    height: 58px;
-    font-size: 120%; 
+    height: 36px;
+    font-size: 100%; 
     text-align: left;
 }
-
-input[type="text"].sheet-attr-input {
-    border-collapse: collapse;
-    border: 1px solid black;
-    width: 54px; 
-    height: 58px; 
-    font-size: 200%; 
-    text-align: left;
-}
-
-table td.sheet-attr-roll {
-    border-collapse: collapse;
-    border: 1px solid black;
-    height: 58px;
-    text-align: left;
-}
-
-input.sheet-secondary-attr-input {
-    border-collapse: collapse;
-    border: 1px solid black;
-    width: 100%;
-    text-align: left;
-}
-
-input[type="number"].sheet-secondary-attr-input {
-    border-collapse: collapse;
-    border: 1px solid black;
-    width: 100%;
-    text-align: left;
-}
-
-table td.sheet-skill-label {
-    border-collapse: collapse;
-    border: 1px solid black;
-    width: 100%;
-    text-align: left;
-}
-
-input[type="text"].sheet-skill-input {
-    border-collapse: collapse;
-    border: 1px solid black;
-    width: 30px;
-    text-align: left;
-}
-
-input[type="number"].sheet-skill-input {
-    border-collapse: collapse;
-    border: 1px solid black;
-    width: 30px;
-    text-align: left;
-}
-
-td.sheet-otherskill-reminder {
-    border-collapse: collapse;
-    border: 1px solid black;
-    font-size: 85%;
-}
-
-texarea.sheet-backstory-box {
-    border-collapse: collapse;
-    border: 1px solid black;
-    height: 75px;
-}
-
+/* Conditions header formatting */
 h4.sheet-condition-head {
     background-color: black;
     color: white;
@@ -118,48 +48,17 @@ h4.sheet-condition-head {
     font-weight: bold;
     font-style: normal;
 }
-
+/* Conditions cell formatting */
 div.sheet-condition {
     border: 1px solid black;
     padding: 1%;
     margin: 0 0 1% 0;
 }
-
-table td.sheet-condition {
-    width: 13.33%;
-    height: 58px;
-}
-table td.sheet-condition-label {
-    height: 58px;
-    font-size: 120%; 
-    text-align: left;
-}
+/* Skills header formatting */
 h4.sheet-skill-head{
     background-color: black;
     color: white;
     text-align: Left;
     font-weight: bold;
     font-style: normal;
-    
-}
-table td.sheet-skill {
-    border-collapse: collapse;
-    border: 1px solid black;
-    width: 13.33%;
-    height: 58px;
-    text-justify: left;
-}
-table td.sheet-skill-label {
-    border: 1px solid black;
-    height: 58px;
-    font-size: 120%; 
-    text-align: left;
-}
-input[type="text"].sheet-skill-input {
-    border-collapse: collapse;
-    border: 1px solid black;
-    width: 54px; 
-    height: 58px; 
-    font-size: 200%; 
-    text-align: left;
 }
